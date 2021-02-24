@@ -1,11 +1,10 @@
-def planets(p):
+def planets(p): 
 
-    planet = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
+    for i in range (0, len(planet)):
+        if (p) == planet[i]:
+            return i + 1
+ 
+    return p + "is not a planet"
 
-for i in range (0, 8):
-    if (p) = planet
-        return len(planet)-1
-
-
-    else:
-        return (p) + "is not a planet"
+planet = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
+print (planets("earth"))
